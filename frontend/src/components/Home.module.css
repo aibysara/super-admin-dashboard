@@ -1,0 +1,54 @@
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #2f3542;
+}
+
+.paragraph {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #57606f;
+}
+
+.button {
+  padding: 12px 25px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.12s ease;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.superadminBtn {
+  background-color: #3742fa;
+}
+
+.superadminBtn:hover {
+  filter: brightness(90%);
+  transform: translateY(-2px);
+}
+
+.userBtn {
+  background-color: #ffa502;
+}
+
+.userBtn:hover {
+  filter: brightness(90%);
+  transform: translateY(-2px);
+}

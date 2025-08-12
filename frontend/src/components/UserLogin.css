@@ -1,0 +1,69 @@
+/* Background styling */
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #007bff, #6f42c1);
+  font-family: Arial, sans-serif;
+}
+
+/* Glassmorphism login box */
+.login-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #ff6b6b;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #ff4c4c;
+}
+
+/* Message text */
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+}
